@@ -1,4 +1,5 @@
 import blog1 from '../assets/images/blog-img1.jpg'
+import blog2 from '../assets/images/blof1.jpg'
 import logo from '../assets/images/logo.svg';
 
 
@@ -31,7 +32,7 @@ export const Card1 = ()=>(
 
 export const Card2 = ()=>(
     <div className={"card"}>
-        <div className="image-place"><img className={"blog-image"} src={blog1}  alt="first blog image" /></div>
+        <div className="image-place"><img className={"blog-image"} src={blog2}  alt="first blog image" /></div>
             <div className={"card-body"}>
                 <div className={"card-category py-small "}>
                     FINANCE

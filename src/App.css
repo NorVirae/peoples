@@ -79,7 +79,7 @@ nav ul {
 
 nav ul li {
   margin: 5px;
-  
+  gap:40px;
 }
 
 .slogan {
@@ -95,14 +95,15 @@ nav ul li {
 .navbar {
   display: flex;
   flex-wrap: wrap;
-  gap:20px;
+  align-self:center;
+  gap:40px;
 
 }
 
 .navbar ul {
   display: flex;
   flex-wrap: wrap;
-  gap:20px;
+  gap:15px;
 
 }
 
