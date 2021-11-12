@@ -13,11 +13,11 @@ function App() {
 {/* main section */}
       <main>
         <Card1/>
-          <div className={"row-flex"}>
+        <div className={"row-flex"}>
             <Card2/>
             <Card3/>
             <Card4/>
-          </div>
+        </div>
 
 
       </main>

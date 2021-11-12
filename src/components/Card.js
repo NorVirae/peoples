@@ -43,11 +43,13 @@ export const Card2 = ()=>(
                     Filing Expenses
                 </div>
                 <div className={"card2-content my-2"}>
-                    How to get reimbursed for expenses? 
-                    In order to be reimbursed for expenses 
-                    incurred on behalf of Status during 
-                    the development of the project, you 
-                    will need to invoice Status and submit a
+
+                    When subscribing to services or paying 
+                    external vendors & contractors, please 
+                    make sure that the invoices they provide 
+                    are fully complete. This page has
+                     more information on what we'll need. 
+                     Here's a sample
                 </div>
                 <div className={"card2-footer"}>
                     <div><img className={"footer-logo"} src = {logo} alt="logo" /></div>
