@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -115,6 +119,7 @@ main {
 
 }
 
+/* Every thing cards */
 .card {
   background-color: var(--white-color);
   height: auto;
@@ -193,6 +198,91 @@ main {
   object-fit: cover;
 
 }
+
+/* end of card */
+
+/* begining of card 2 */
+.card2 {
+  background-color: var(--white-color);
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: visible;
+  border-radius: 9px;
+  width: 400px;
+  height: 500px;
+  margin: 10px;
+  padding: 0;
+  cursor: pointer;
+  z-index: 0;
+  transition: 0.6s;
+  align-self: center;
+}
+
+.card2:hover {
+  transform: scale(1.01);
+  z-index: 0;
+}
+
+.card2-body {
+  height: auto;
+  margin: 30px;
+  gap:20px;
+
+}
+
+
+.card2-category {
+  color: var(--secondary) ;
+}
+
+.card2-title {
+  font-size: 2rem;
+
+}
+
+.card2-content {
+  font-size: 1.0rem;
+  color: rgb(51, 48, 48);
+  line-height: 25px;
+}
+
+
+
+.card2-footer {
+  display: flex;
+  flex-direction: row;
+  gap:254px;
+  flex-grow: 1;
+  margin-top:10px;
+}
+
+.footer2-timer {
+  color: var(--secondary);
+  align-self: flex-end;
+  font-size: 0.6rem;
+}
+
+.footer2-logo {
+  width:20px;
+  height: 20px;
+}
+
+
+.blog2-image {
+  width:400px;
+  height: 200px;
+  margin: 0;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+
+  object-fit: cover;
+
+}
+
+/* end of card 2 */
 
 .flex-wrapper {
   display: grid;
