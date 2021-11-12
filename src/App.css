@@ -195,7 +195,7 @@ main {
 
 .blog-image {
   width: 600px;
-  height: 300px;
+  height: 100%;
   margin: 0;
   border-top-left-radius: 9px;
   border-bottom-left-radius: 9px;
@@ -232,6 +232,7 @@ main {
 }
 
 .card2-body {
+  width: auto;
   height: auto;
   margin: 30px;
   gap:20px;
@@ -277,7 +278,7 @@ main {
 
 
 .blog2-image {
-  width:200px;
+  width:100%;
   height: 200px;
   margin: 0;
   border-top-left-radius: 9px;
