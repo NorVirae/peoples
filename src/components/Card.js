@@ -7,13 +7,13 @@ const Card = ()=>(
                     <div className={"card"}>
                         <div className="image-place"><img className={"blog-image"} src={blog1}  alt="first blog image" /></div>
                             <div className={"card-body"}>
-                                <div className={"card-category"}>
+                                <div className={"card-category "}>
                                     FINANCE
                                 </div>
                                 <div className={"card-title"}>
                                     Filing Expenses
                                 </div>
-                                <div className={"card-content"}>
+                                <div className={"card-content my-1"}>
                                     How to get reimbursed for expenses? 
                                     In order to be reimbursed for expenses 
                                     incurred on behalf of Status during 
