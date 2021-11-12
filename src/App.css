@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+:root {
+  --white-color: #ffff;
+  --secondary : #212122be;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -56,7 +61,7 @@ nav {
 
 nav ul {
   list-style-type: none;
-  color: #ffff;
+  color:var(--white-color);
   display: flex;
 
 }
@@ -91,52 +96,79 @@ nav ul li {
 
 .main {
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: 1 1fr;
   height: 400px;
   background-color: burlywood;
 
 }
 
 .card {
-  height: 50%;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
+  flex-direction: row;
   overflow: visible;
-  border-radius: 4px;
+  border-radius: 9px;
   width: 80%;
   margin: 10px;
   padding: 0;
 
 }
 .card div {
-  margin: 3px;
+  margin: 10px;
 }
 
 .card-body {
-  padding:40px;
+  padding:30px;
 }
 
 .card-body div {
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 
 .card-category {
-  color: #212122be;
+  color: var(--secondary) ;
+  padding: 5px;
 }
 
 .card-title {
   font-size: 2rem;
+  margin:4px;
 }
 
 .card-content {
   font-size: 1.2rem;
 }
 
+.footer-logo {
+  width:20px;
+  height: 20px;
+}
+
+.card-footer {
+  display: flex;
+  gap:3px;
+  flex-direction: row;
+  flex-grow: initial;
+  align-self: center;
+  margin-top:10px;
+  align-content: space-between;
+  
+}
+
+.footer-timer {
+  color: var(--secondary);
+}
+
+
 .blog-image {
   width: 600px;
-  height: auto;
+  height: 350px;
   margin: 0;
+  border-radius: 3px;
 
 }
+
+
 

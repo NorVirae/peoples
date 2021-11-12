@@ -1,4 +1,6 @@
 import blog1 from '../assets/images/blog-img1.jpg'
+import logo from '../assets/images/logo.svg';
+
 
 
 const Card = ()=>(
@@ -17,6 +19,10 @@ const Card = ()=>(
                                     incurred on behalf of Status during 
                                     the development of the project, you 
                                     will need to invoice Status and submit a
+                                </div>
+                                <div className={"card-footer"}>
+                                    <span><img className={"footer-logo"} src = {logo} alt="logo" /></span>
+                                    <span className={"footer-timer"}>3 MINS READ</span>
                                 </div>
                     </div>
 
