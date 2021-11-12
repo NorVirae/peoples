@@ -107,7 +107,8 @@ nav ul li {
 }
 
 .main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
   justify-content:center ;
   align-content: center;
@@ -157,13 +158,12 @@ nav ul li {
 }
 
 .card-content {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
+  color: rgb(51, 48, 48);
+  line-height: 25px;
 }
 
-.footer-logo {
-  width:20px;
-  height: 20px;
-}
+
 
 .card-footer {
   display: flex;
@@ -176,7 +176,12 @@ nav ul li {
 .footer-timer {
   color: var(--secondary);
   align-self: flex-end;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+}
+
+.footer-logo {
+  width:20px;
+  height: 20px;
 }
 
 
@@ -200,9 +205,7 @@ nav ul li {
   background-color:var(--nav-color);
 }
 
-.card-container {
 
-}
 
 /* Margin and padding styles */
 
