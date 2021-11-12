@@ -45,7 +45,7 @@ nav {
    gap: 20px;
    justify-content: flex-end;
    align-items: center;
-   height: 400px;
+   height: 350px;
    background-color: rgba(20, 13, 117, 0.87);
   }
 .logo {
@@ -67,9 +67,32 @@ nav ul li {
 
 .slogan {
   color:white;
+  font-size: 2rem;
 }
 
 .nav-brand {
   display: flex;
   flex-direction: column;
 }
+
+.navbar {
+  display: flex;
+  gap:20px;
+
+}
+
+.main {
+  height: 400px;
+  background-color: burlywood;
+
+}
+
+.card {
+  overflow: visible;
+}
+
+.blog-image {
+  width: 300px;
+  height: 200px;
+}
+

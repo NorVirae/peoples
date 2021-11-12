@@ -24,6 +24,13 @@ function Navbar (){
                   <li>TEAM LEAD MANUAL</li>
                   <li>FINANCE</li>
 
+
+                </ul>
+
+                <ul>
+                  <li><span className="fab fa-facebook"></span></li>
+                  <li><span className="fab fa-github"></span></li>
+
                 </ul>
 
               </div>
