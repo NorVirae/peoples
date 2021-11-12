@@ -90,6 +90,8 @@ nav ul li {
 }
 
 .main {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
   height: 400px;
   background-color: burlywood;
 
@@ -97,7 +99,7 @@ nav ul li {
 
 .card {
   height: 70%;
-
+  box-shadow: 2px 2px rgba(218, 213, 213, 0.932);
   display: flex;
   overflow: visible;
   border: 1px solid blue;
@@ -108,13 +110,14 @@ nav ul li {
   margin: 3px;
 }
 
-.card body {
-  padding:20px;
+.card-body {
+  padding:40px;
 }
 
-.card div div {
-  margin-top: 3px;
+.card-body div {
+  margin-top: 4px;
 }
+
 
 .card-category {
   color: #212122be;
@@ -129,7 +132,7 @@ nav ul li {
 }
 
 .blog-image {
-  width: 400px;
+  width: 600px;
   height: 300px;
 }
 
