@@ -1,6 +1,6 @@
 import './App.css';
+import Card from './components/Card';
 import Navbar from './components/Navbar';
-import blog1 from './assets/images/blog-img1.jpg'
 
 function App() {
   return (
@@ -11,10 +11,7 @@ function App() {
 
 {/* main section */}
       <main>
-        <div className={"card"}>
-          <div className="image-place"><img className={"blog-image"} src={blog1}  alt="first blog image" /></div>
-        </div>
-
+        <Card/>
       </main>
 
 {/* footer section */}
