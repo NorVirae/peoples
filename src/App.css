@@ -129,6 +129,10 @@ main {
 
 }
 
+.card-wrap {
+    max-width: 80%;
+}
+
 /* Every thing cards */
 .card {
   background-color: var(--white-color);
@@ -222,7 +226,7 @@ main {
   overflow: visible;
   border-radius: 9px;
   width: 100%;
-  height: 550px;
+  height: auto;
   margin: 10px;
   padding: 0;
   cursor: pointer;
@@ -265,7 +269,7 @@ main {
 .card2-footer {
   display: flex;
   flex-direction: row;
-  gap:150px;
+  gap: 65%;
   flex-grow: 1;
   margin-top:10px;
 }
