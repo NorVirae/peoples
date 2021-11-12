@@ -5,13 +5,7 @@ function App() {
   return (
     
     <div className="container">
-      <nav className="className">
-
-
-
-
-
-
+      <nav>
         <div className={"nav-brand"}>
           <img src={logo} className={"logo"} alt="the logo" />
           <p className={"slogan"}>People Ops at Status</p>
