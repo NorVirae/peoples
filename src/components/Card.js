@@ -1,5 +1,7 @@
 import blog1 from '../assets/images/blog-img1.jpg'
 import blog2 from '../assets/images/blof1.jpg'
+import blog3 from '../assets/images/blog2.jpg'
+import blog4 from '../assets/images/blog3.jpg'
 import logo from '../assets/images/logo.svg';
 
 
@@ -57,7 +59,7 @@ export const Card2 = ()=>(
 
 export const Card3 = ()=>(
     <div className={"card2"}>
-        <div className="image-place"><img className={"blog2-image"} src={blog2}  alt="first blog image" /></div>
+        <div className="image-place"><img className={"blog2-image"} src={blog3}  alt="first blog image" /></div>
             <div className={"card2-body"}>
                 <div className={"card2-category py-small "}>
                     FINANCE
@@ -82,7 +84,7 @@ export const Card3 = ()=>(
 
 export const Card4 = ()=>(
     <div className={"card2"}>
-        <div className="image-place"><img className={"blog2-image"} src={blog2}  alt="first blog image" /></div>
+        <div className="image-place"><img className={"blog2-image"} src={blog4}  alt="first blog image" /></div>
             <div className={"card2-body"}>
                 <div className={"card2-category py-small "}>
                     FINANCE

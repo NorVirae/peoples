@@ -122,6 +122,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+
 }
 
 /* Every thing cards */
@@ -150,7 +152,7 @@ main {
 }
 
 .card-body {
-  height: auto;
+  height: 100%;
   margin: 30px;
   gap:20px;
 
@@ -200,7 +202,6 @@ main {
   margin: 0;
   border-top-left-radius: 9px;
   border-bottom-left-radius: 9px;
-
   object-fit: cover;
 
 }
