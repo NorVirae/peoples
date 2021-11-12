@@ -1,5 +1,5 @@
 import './App.css';
-import Card, { Card1, Card2 } from './components/Card';
+import Card, { Card1, Card2, Card3, Card4 } from './components/Card';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -13,7 +13,12 @@ function App() {
 {/* main section */}
       <main>
         <Card1/>
-        <Card2/>
+          <div className={"row-flex"}>
+            <Card2/>
+            <Card3/>
+            <Card4/>
+          </div>
+
 
       </main>
 

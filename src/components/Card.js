@@ -55,4 +55,54 @@ export const Card2 = ()=>(
 
 </div>)
 
+export const Card3 = ()=>(
+    <div className={"card2"}>
+        <div className="image-place"><img className={"blog2-image"} src={blog2}  alt="first blog image" /></div>
+            <div className={"card2-body"}>
+                <div className={"card2-category py-small "}>
+                    FINANCE
+                </div>
+                <div className={"card2-title"}>
+                    Filing Expenses
+                </div>
+                <div className={"card2-content my-2"}>
+                    How to get reimbursed for expenses? 
+                    In order to be reimbursed for expenses 
+                    incurred on behalf of Status during 
+                    the development of the project, you 
+                    will need to invoice Status and submit a
+                </div>
+                <div className={"card2-footer"}>
+                    <div><img className={"footer-logo"} src = {logo} alt="logo" /></div>
+                    <div className={"footer-timer"}>3 MINS READ</div>
+                </div>
+    </div>
+
+</div>)
+
+export const Card4 = ()=>(
+    <div className={"card2"}>
+        <div className="image-place"><img className={"blog2-image"} src={blog2}  alt="first blog image" /></div>
+            <div className={"card2-body"}>
+                <div className={"card2-category py-small "}>
+                    FINANCE
+                </div>
+                <div className={"card2-title"}>
+                    Filing Expenses
+                </div>
+                <div className={"card2-content my-2"}>
+                    How to get reimbursed for expenses? 
+                    In order to be reimbursed for expenses 
+                    incurred on behalf of Status during 
+                    the development of the project, you 
+                    will need to invoice Status and submit a
+                </div>
+                <div className={"card2-footer"}>
+                    <div><img className={"footer-logo"} src = {logo} alt="logo" /></div>
+                    <div className={"footer-timer"}>3 MINS READ</div>
+                </div>
+    </div>
+
+</div>)
+
 
