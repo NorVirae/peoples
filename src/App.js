@@ -7,12 +7,16 @@ function App() {
     
     <div className="container">
 {/* header section */}
+    <div className="flex-wrapper">
       <Navbar/>
-
+      
 {/* main section */}
       <main>
         <Card/>
+
       </main>
+
+    </div>
 
 {/* footer section */}
       <footer>
