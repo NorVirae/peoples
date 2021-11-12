@@ -1,5 +1,5 @@
 import './App.css';
-import Card from './components/Card';
+import Card, { Card1, Card2 } from './components/Card';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -12,7 +12,8 @@ function App() {
       
 {/* main section */}
       <main>
-        <Card/>
+        <Card1/>
+        <Card2/>
 
       </main>
 

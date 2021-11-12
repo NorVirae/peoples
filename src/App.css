@@ -5,7 +5,7 @@
 :root {
   --white-color: #ffff;
   --secondary : #212122be;
-  --nav-color:rgba(20, 13, 117, 0.87);
+  --nav-color:rgba(20, 13, 117);
 }
 
 .App-logo {
@@ -117,7 +117,6 @@ nav ul li {
 }
 
 .card {
-  position: absolute;
   background-color: var(--white-color);
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -176,6 +175,7 @@ nav ul li {
 .footer-timer {
   color: var(--secondary);
   align-self: flex-end;
+  font-size: 0.8rem;
 }
 
 
@@ -190,7 +190,11 @@ nav ul li {
 
 }
 
-
+.flex-wrapper {
+  display: grid;
+  height: 400px;
+  background-color:var(--nav-color);
+}
 
 /* Margin and padding styles */
 
