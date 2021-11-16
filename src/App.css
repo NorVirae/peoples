@@ -1,6 +1,7 @@
 .container {
   max-width: 62.75rem;
   margin: auto;
+  padding: 0.4rem;
 }
 
 .navbar {
@@ -435,7 +436,42 @@ nav ul li a:hover {
 
 /* Tablet screens and blow */
 @media (max-width:768px){
-    body{
-      display: none;
-    }
+   .navbar nav {
+     overflow: scroll;
+     -ms-overflow-style: none;
+      scrollbar-width:none;
+   }
+
+   .navbar nav::-webkit-scrollbar  {
+    display: none;
+  }
+
+  .span-3 {
+    grid-column: span 6;
+  }
+
+  .span-2 {
+    grid-column: span 6;
+
+  }
+
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .w-50 {
+    width: 100%;
+  }
+
+  .card-image {
+    border-radius: 0.8rem 0.8rem 0 0 !important;
+    
+    
+  }
+
+  .footer .flex ul {
+    flex-direction: column;
+    list-style-type: none;
+  }
+
 }

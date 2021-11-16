@@ -23,7 +23,7 @@ const Home = (props) => {
 
                             if (index == 0){
                             
-                                        return ( <div key ={index} className="card flex span-6">
+                                        return ( <div key ={index} className="card flex flex-row span-6">
                                                         <img className={"card-image w-50"} src={post.img} alt="blog1" />
                                                         <div className={"card-body flex flex-column"}>
                                                             <h2 className="card-cat text-muted">{post.cat}</h2>
